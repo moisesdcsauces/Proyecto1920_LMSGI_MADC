@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<mundo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:noNamespaceSchemaLocation="xml02.xsd">
+	<continente>
+		<nombrecontinente>Europa</nombrecontinente>
+		<pais>
+			<nombrepais>Alemania</nombrepais>
+			<capital>Berlin</capital>
+		</pais>
+	</continente>
+	<continente>
+		<nombrecontinente>America</nombrecontinente>
+		<pais>
+			<nombrepais>Argentina</nombrepais>
+			<capital>Buenos Aires</capital>
+		</pais>
+		<pais>
+			<nombrepais>Bahamas</nombrepais>
+			<capital>Nassau</capital>
+		</pais>
+	</continente>
+	<continente>
+		<nombrecontinente>Asia</nombrecontinente>
+		<pais>
+			<nombrepais>Afganistan</nombrepais>
+			<capital>Kabul</capital>
+		</pais>
+		<pais>
+			<nombrepais>Arabia Saudita</nombrepais>
+			<capital>Riad</capital>
+		</pais>
+	</continente>
+</mundo>

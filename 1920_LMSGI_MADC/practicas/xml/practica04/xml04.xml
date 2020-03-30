@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE mail [
+	<!ELEMENT remitente (#PCDATA)>
+	<!ELEMENT correo (#PCDATA)>
+	<!ELEMENT asunto (#PCDATA)>
+	<!ELEMENT mensaje (#PCDATA)>
+	<!ELEMENT image (#PCDATA)>
+	<!ELEMENT destinatario (correo+)>
+	<!ELEMENT adjuntos (image*)>
+	<!ELEMENT mail (remitente, destinatario, asunto?, mensaje, adjuntos?)>
+	<!ATTLIST mail fecha CDATA #REQUIRED>
+	<!ATTLIST image type (imagepng|imagejpg|imageico) #REQUIRED>
+	<!ATTLIST mail xmlns:xsi CDATA #IMPLIED
+				   xsi:noNamespaceSchemaLocation CDATA #IMPLIED> 
+]>
+<mail fecha="2020-01-14" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:noNamespaceSchemaLocation="xml04.xsd">
+	<remitente>moisesroyale10@gmail.com</remitente>
+	<destinatario>
+		<correo>moisesa.jcyl.es</correo>
+		<correo>amorrodriguez.jcyl.es</correo>
+	</destinatario>
+	<asunto>Fiesta de fin de curso</asunto>
+	<mensaje>Ultramix 2020</mensaje>
+	<adjuntos>
+		<image type="imagepng">foto1.png</image>
+		<image type="imagejpg">foto2.jpg</image>
+		<image type="imageico">foto3.ico</image>
+	</adjuntos>
+</mail>

@@ -1,0 +1,10 @@
+/* 
+    Created on : Notepad++
+    Author     : Moisés Alberto Domínguez Cruz
+    File        : estilo8.css
+    Description : Trabajando con selectores
+*/
+
+#abuelo > div {border:solid red 1px;}
+
+

@@ -1,0 +1,129 @@
+﻿
+/* 
+    Created on : 03-dic-2019, 19:10:50
+    Author     : Moisés Alberto Domínguez Cruz
+   
+*/
+
+body{
+	font-family: calibri, arial, sans-serif;
+	background-image: url(../images/Le_petit_prince.png);
+	background-repeat: no-repeat;
+	background-position: top right;
+	background-attachment: static;
+	margin-right: 250px;
+	background-size: 280px;
+}
+
+h1{
+	background-color: #FFA500;
+	color: #FF4500;
+	font-variant: Small-caps;
+}
+
+.par1{
+	background-color: lightblue;
+	color: green;
+	font-weight: bold;
+}
+
+.static{
+	position: static;
+	border: 3px solid #E9967A;
+	padding: 5px;
+}
+
+.relative{
+	position: relative;
+	left: 5%;
+	border: 3px dotted #9932CC;
+}
+
+.fixed{
+	position: fixed;
+	right: 0px;
+	width: 200px;
+	bottom: 30px;
+	background-color: #FFB973;
+	border: 3px dashed green;
+}
+
+.relative1{
+	position: relative;
+	border: 3px groove #008000;
+	padding: 3px;
+	height: 150px;
+	min-width: 500px;
+}
+
+.absolute1{
+	position: absolute;
+	right: 5px;
+	bottom: 0px;
+	border: 3px solid lightgreen;
+	padding: 3px;
+	width: 50%;
+}
+
+.sticky{
+	position: sticky;
+	right: 0px;
+	top: 0px;
+	background-color: #008000;
+	color: lightgreen;
+	border-radius: 20px;
+	text-align: center;
+	padding: 3px;
+	border: 3px solid lightgreen;
+}
+
+.container{
+	position:relative;
+}
+
+.img1{
+	position:absolute;
+	width:80%;
+	z-index:-1;
+}
+
+.img2{
+	width:100%;
+	opacity:0.5;
+	z-index:-1;
+}
+
+.container div {
+	border: solid 2px;
+	position:absolute;
+	background-color:#FF9c00;
+	color:#8B008B;
+	font-size:18px;
+	font-weight: bold;
+	font-variant: small-caps;
+}
+
+.topleft{
+	left:8px;
+	top: 8px;
+}
+
+.topright{
+	top: 8px;
+	right: 8px;
+}
+
+.center{
+	left: 50%;
+	top: 50%;
+}
+
+.bottomleft{
+	left:8px;
+	bottom: 8px;
+}
+
+.bottomright{
+	bottom:8px;
+	right:8px;
+}

@@ -1,0 +1,12 @@
+*{
+	white-space:pre;
+}
+codigo::after{
+	content:'\A';
+	white-space:pre;
+}
+nLenguaje{
+	color:red;
+	border:1px solid red;
+	font-size:20px;
+}

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="CATALOG">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="PRODUCT" minOccurs="1" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="SPECIFICATIONS">
+								<xs:complexType>
+									<xs:simpleContent>
+										<xs:extension base="xs:string">
+											<xs:attribute name="WEIGHT" type="xs:string" use="required" />
+											<xs:attribute name="POWER" type="xs:string" use="required"/>
+										</xs:extension>
+									</xs:simpleContent>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="OPTIONS">
+								<xs:complexType>
+									<xs:simpleContent>
+										<xs:extension base="xs:string">
+											<xs:attribute name="FINISH" type="xs:string" use="required" />
+											<xs:attribute name="ADAPTER" type="xs:string" use="required" />
+											<xs:attribute name="CASE" type="xs:string" use="required" />
+										</xs:extension>
+									</xs:simpleContent>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="PRICE">
+								<xs:complexType>
+									<xs:simpleContent>
+										<xs:extension base="xs:string">
+											<xs:attribute name="MSRP" type="xs:string" use="required" />
+											<xs:attribute name="WHOLESALE" type="xs:string" use="required" />
+											<xs:attribute name="STREET" type="xs:string" use="required" />
+											<xs:attribute name="SHIPPING" type="xs:string" use="required" />
+										</xs:extension>
+									</xs:simpleContent>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="NOTES" type="xs:string"/>
+						</xs:sequence>
+						<xs:attribute name="NAME" type="xs:string" use="required" />
+						<xs:attribute name="CATEGORY" type="xs:string" use="required" />
+						<xs:attribute name="PARTNUM" type="xs:string" use="required" />
+						<xs:attribute name="PLANT" type="xs:string" use="required" />
+						<xs:attribute name="INVENTORY" type="xs:string" use="required" />
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

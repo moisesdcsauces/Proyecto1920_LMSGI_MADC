@@ -1,0 +1,9 @@
+﻿/* 
+    Created on  : Notepad++
+    Author      : Moisés Alberto Domínguez Cruz
+    File        : reset.css
+    Description : Resetear los estilos
+*/
+
+div {border:1px gray; border-style:solid; margin:10px;}
+p{border:1px gray; border-style:solid; margin:10px;}

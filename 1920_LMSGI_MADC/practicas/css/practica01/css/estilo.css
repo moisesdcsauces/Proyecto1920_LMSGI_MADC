@@ -1,0 +1,8 @@
+/* 
+    Created on : Notepad++
+    File        : estilo.css
+    Description : Pseudo-elemento
+*/
+
+#abuelo:before{content:"Estilo por defecto"}
+

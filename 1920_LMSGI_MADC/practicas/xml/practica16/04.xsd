@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Autor: Moisés -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="actividades">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="actividad" minOccurs="0" maxOccurs="20">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="codigo" type="xs:string"/>
+							<xs:element name="titulo" type="xs:string"/>
+							<xs:element name="fecha_inicio" type="xs:date"/>
+							<xs:element name="sesiones">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="minutos_sesion" default="60">
+											<xs:simpleType>
+												<xs:restriction base="xs:integer">
+													<xs:maxInclusive value="120"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element name="sesiones_semana">
+											<xs:simpleType>
+												<xs:restriction base="xs:integer">
+													<xs:minInclusive value="1"/>
+													<xs:maxInclusive value="3"/>
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+									</xs:sequence>
+									<xs:attribute name="intensidad">
+										<xs:simpleType>
+											<xs:restriction base="xs:string">
+												<xs:pattern value="suave|moderada|fuerte"/>
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:attribute>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+						<xs:attribute name="nivel">
+							<xs:simpleType>
+								<xs:restriction base="xs:string">
+									<xs:pattern value="infantil|adultos"/>
+								</xs:restriction>
+							</xs:simpleType>
+						</xs:attribute>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

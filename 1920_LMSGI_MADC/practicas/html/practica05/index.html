@@ -1,0 +1,142 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<title> HTML 05 Moisés Alberto Domínguez Cruz </title>
+	</head>
+	<body>
+	<header>
+		<h1>Formulario Sneakers</h1>
+	</header>
+	<form action="#" method="get">
+		<fieldset>
+		<legend>Datos Personales</legend>
+		<p>
+			<label for="LblNombre">Nombre:</label>
+			<input type="text" name="nombre" id="LblNombre" placeholder="Escriba su Nombre" size="20" required>
+
+			<label for="LblApellidos1">1er Apellido:</label>
+			<input type="text" name="apellidos1" id="LblApellidos1" placeholder="Escriba su primer apellido" size="40" required>
+			
+			<label for="LblApellidos2">2do Apellido:</label>
+			<input type="text" name="apellidos2" id="LblApellidos2" placeholder="Escriba su segundo apellido" size="40" required>
+		</p>
+		<p>
+			<input type="radio" name="hm" value="h" required> Hombre
+			<input type="radio" name="hm" value="m" required> Mujer
+		</p>
+		<p>
+			<label for="LblDireccion">Dirección:</label>
+			<input type="text" name="direccion" id="LblDireccion" placeholder="Escriba su dirección postal" size="50" required>
+			
+			<label for="LblCodigoPostal">Codigo Postal:</label>
+			<input type="text" name="codigopostal" id="LblCodigoPostal" size="6" maxlength="5" required>
+			
+			<label for="LblTelefono">Telefono:</label>
+			<input type="text" name="telefono" id="LblTelefono" size="9" maxlength="9" required>
+			
+			<label for="LblEmail">Email:</label>
+			<input type="email" name="correo" id="LblEmail" size="30" required>
+		</p>
+		<p>
+			<label for="LblPais">Pais:</label>
+			<select name="pais" id="LblPais">
+				<option value="esp">España</option>
+			</select>
+			
+			<label for="LblComunidades">Comunidad Autonoma:</label>
+			<select name="provincia" id="LblComunidades">
+				<option value="and">Andalucia</option>
+				<option value="ara">Aragón</option>
+				<option value="ast">Asturias</option>
+				<option value="can">Cantabria</option>
+				<option value="castlama">Castilla La Mancha</option>
+				<option value="castyLe">Castilla y León</option>
+				<option value="cat">Cataluña</option>
+				<option value="ext">Extremadura</option>
+				<option value="isb">Islas Baleares</option>
+				<option value="isc">Islas Canarias</option>
+				<option value="lar">La Rioja</option>
+				<option value="mad">Madrid</option>
+				<option value="mur">Murcia</option>
+				<option value="nav">Navarra</option>
+				<option value="pvas">Pais Vasco</option>
+				<option value="val">Valencia</option>
+				<option value="ceu">Ceuta*</option>
+				<option value="mel">Melilla*</option>
+			</select>
+			
+			<label for="LblCiudad">Ciudad:</label>
+			<input type="text" name="ciudad" id="LblCiudad" placeholder="Escriba su Ciudad/Pueblo" size="50" required>
+		</p>
+		</fieldset>
+		<fieldset>
+		<legend>Tipo de Marca</legend>
+		<p>
+			<input type="radio" name="marca" value="1">Jordan<br>
+			<input type="radio" name="marca" value="2">Nike<br>
+			<input type="radio" name="marca" value="3">Adidas<br>
+			<input type="radio" name="marca" value="4">Reebok<br>
+			<input type="radio" name="marca" value="5">Puma<br>
+			<input type="radio" name="marca" value="6">Converse<br>
+			<input type="radio" name="marca" value="7">Vans<br>
+			<input type="radio" name="marca" value="8">Gucci<br>
+			<input type="radio" name="marca" value="9">Balenciaga<br>
+			<input type="radio" name="marca" value="10">New Balance<br>
+			<label for="LblModelo">Modelo:</label>
+			<input type="text" name="modelo" id="LblModelo" placeholder="Escriba el modelo, por ejemplo: Nike air max" size="50" required>
+			
+			<label for="LblTalla">Talla:</label>
+			<input type="text" name="talla" id="LblTalla" size="2" required>
+		</p>
+		</fieldset>
+		<fieldset>
+		<legend>Otros Complementos</legend>
+		<p>
+			<label for="LblCalzado"></label>
+				<input type="checkbox" name="boost" value="si" id="LblCalzado">¿Quiere una plantilla?
+		</p>
+		<p>
+			<label for="LblCaja">
+				<input type="checkbox" name="caja" value="si" id="LblCaja">¿Quiere una caja de IRIS para guardar sus sneakers?
+			</label>
+		</p>
+		<p>
+			<label for="LblCordones">
+				<input type="checkbox" name="cordones" value="si" id="LblCordones">¿Quiere un par de cordones para sus sneakers?
+			</label>
+		</p>		
+		<p>
+			<label for="LblLimpieza">
+				<input type="checkbox" name="Creep Protect" value="si" id="LblLimpieza">¿Quiere un Kit de Creep Protect?
+			</label>
+		</p>
+		<p>
+			<label for="LblPernitos">
+				<input type="checkbox" name="Pernitos" value="si" id="LblPernitos">¿Quiere un pack de pernitos?
+			</label>
+		</p>
+		<p>
+			<label for="LblCapsulas"></label>
+				<input type="checkbox" name="Capsulas" value="si" id="LblCapsulas">¿Quiere unas Capsulas para neutralizar el olor a pies?
+		</p>
+		</fieldset>
+		<fieldset>
+			<legend>Entrega</legend>
+			<p>
+				<label for="LblComp">Gratis o Pago "15€":</label><br> Gratis "5 días laborables"
+				<input type="range" min="1" max="2" value="5" step="1" name="comp" id="LblComp"> Pago "1 día laborables"
+			</p>
+			<p>
+				<label for="LblFecha">Fecha Prevista</label>
+				<input type="date" name="fecha" id="LblFecha" min="2019-01-01">
+			</p>
+		</fieldset>
+		<fieldset>
+			<legend>Comentanos algo que necesitemos saber sobre su pedido</legend>
+					<textarea name="texto" rows="4" cols="40" placeholder="Escriba algo"></textarea>
+		</fieldset>
+		<input type="submit" value="Enviar">
+	</form>
+	</body>
+</html>

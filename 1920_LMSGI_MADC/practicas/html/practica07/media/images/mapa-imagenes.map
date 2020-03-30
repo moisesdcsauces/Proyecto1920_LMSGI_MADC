@@ -1,0 +1,18 @@
+<img src="[mapa-imagenes] (importada)" width="1000" height="1000" border="0" usemap="#map" />
+
+<map name="map">
+<!-- #$-:Image map file created by GIMP Image Map plug-in -->
+<!-- #$-:GIMP Image Map plug-in by Maurits Rijk -->
+<!-- #$-:Please do not edit lines starting with "#$" -->
+<!-- #$VERSION:2.3 -->
+<!-- #$AUTHOR:daw1 -->
+<area shape="rect" coords="62,71,296,308" target="adidas" href="www.adidas.es/" />
+<area shape="circle" coords="504,171,131" target="converse" href="www.converse.com/es" />
+<area shape="poly" coords="682,60,675,325,983,300,881,17" target="jordan" href="www.nike.com/es/es_es/c/jordan" />
+<area shape="rect" coords="28,376,329,606" target="puma" href="https://eu.puma.com/es/es/home" />
+<area shape="circle" coords="500,482,121" target="vans" href="https://www.vans.es/" />
+<area shape="poly" coords="669,367,674,642,992,445" target="nike" href="https://www.nike.com/es/" />
+<area shape="rect" coords="54,709,308,951" target="new balance" href="https://www.newbalance.es/" />
+<area shape="circle" coords="506,829,140" target="kappa" href="https://www.kappastore.es/" />
+<area shape="poly" coords="701,728,706,902,965,857,957,754" target="diesel" href="https://es.diesel.com/es/" />
+</map>

@@ -1,0 +1,88 @@
+
+/* 
+    Created on : 29/11/2019
+    Author     : Moisés Alberto Domínguez Cruz
+    Colores utilizados: https://www.w3schools.com/colors/colors_groups.asp
+*/
+
+body{
+	background-image:url(../images/Le_petit_prince.png);
+	background-repeat:no-repeat;
+	background-position: top right;
+	margin-right:250px;
+}
+
+h1{
+	text-transform:uppercase;
+	color:darkred;
+	text-decoration:underline;
+	font-family:sans-serif;
+}
+
+p{
+	background-color:Crimson;
+}
+
+p:first-letter {
+	font-size:1.3em;
+}
+
+span{
+	color:white;
+}
+
+.lista1{
+	list-style-type:circle;
+}
+
+.lista2{
+	list-style-type:square;
+}
+
+.lista3{
+	list-style-image:url(../images/sqpurple.png);
+}
+
+.lista4{
+	border-style:dashed;
+	border-color:darkred;
+	background-color:lightsalmon;
+	color:lightsalmon;
+	padding:10px;
+	font-size:1.2em;
+}
+
+.lista4>li{
+	background-color:darkred;
+	margin:5px;
+	list-style:none;
+	counter-reset:ol;
+}
+
+.lista4>li::before{
+	background-color:lightsalmon;
+	padding:5px;
+	color:darkred;
+	content:"•";
+}
+
+.lista5{
+	border-left-style:solid;
+	border-left-color:darkred;
+	border-width:10px;
+	color:darkred;
+	background-color:lightsalmon;
+	padding:10px;
+}
+
+.lista5>li{
+	list-style:none;
+}
+
+.lista6>li{
+	list-style:none;
+	counter-reset:li;
+	color:darkred;
+	border-style:dotted;
+	border-width:1px;
+}

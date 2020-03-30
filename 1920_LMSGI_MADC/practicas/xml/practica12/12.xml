@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/css" href="estilo.css"?>
+<!DOCTYPE textos [
+	<!ELEMENT texto (#PCDATA)>
+	<!ENTITY escritor "Miguel de Cervantes">
+	<!ENTITY obra "El Quijote">
+	<!ENTITY fecha "25/09/1947">
+	<!ELEMENT textos (texto+)>
+]>
+<textos>
+	<texto>&obra; fue escrito por &escritor;</texto>
+	<texto>&escritor; nació el &fecha;</texto>
+</textos>

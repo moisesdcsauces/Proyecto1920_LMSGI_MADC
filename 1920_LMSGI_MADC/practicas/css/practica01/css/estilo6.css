@@ -1,0 +1,10 @@
+/* 
+    Created on : Notepad++
+    Author     : Moisés Alberto Domínguez Cruz
+    File        : estilo6.css
+    Description : Trabajando con selectores
+*/
+
+.padre+p{background-color:#009cde;}
+
+

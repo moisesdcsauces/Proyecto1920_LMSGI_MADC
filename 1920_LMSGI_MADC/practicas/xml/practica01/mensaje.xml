@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE mail [
+	<!ELEMENT fecha (#PCDATA)>
+	<!ELEMENT remitente (#PCDATA)>
+	<!ELEMENT correo (#PCDATA)>
+	<!ELEMENT asunto (#PCDATA)>
+	<!ELEMENT mensaje (#PCDATA)>
+	<!ELEMENT tipo (#PCDATA)>
+	<!ELEMENT nombre (#PCDATA)>
+	<!ELEMENT destinatario (correo+)>
+	<!ELEMENT image (tipo, nombre)>
+	<!ELEMENT adjuntos (image+)>
+	<!ELEMENT mail (fecha, remitente, destinatario, asunto?, mensaje, adjuntos?)>
+	<!ATTLIST mail xmlns:xsi CDATA #IMPLIED
+				   xsi:noNamespaceSchemaLocation CDATA #IMPLIED>
+]> 
+<mail xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:noNamespaceSchemaLocation="mensaje.xsd">
+	<fecha>2020-06-18</fecha>
+	<remitente>moiroyale10@gmail.com</remitente>
+	<destinatario>
+		<correo>moisesa.jcyl.es</correo>
+		<correo>amorrodriguez.jcyl.es</correo>
+	</destinatario>
+	<asunto>Fiesta</asunto>
+	<mensaje>Fiesta final de las clases jeje</mensaje>
+	<adjuntos>
+		<image>
+			<tipo>image/png</tipo>
+			<nombre>foto1.png</nombre>
+		</image>
+		<image>
+			<tipo>image/png</tipo>
+			<nombre>foto2.png</nombre>
+		</image>
+	</adjuntos>
+</mail>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+	<languaje>es-Es</languaje>
+	<channel>
+		<title>Moisés Alberto Domínguez Cruz</title>
+		<copyright>MoiTheCreator</copyright>
+		<url>192.168.2.106</url>
+		<description>RSS by MoiTheCreator</description>
+		<lastBuildDate>Mon, 30 Mar 2020 09:31:00 +0100</lastBuildDate>
+		<skipDays>
+			<day>Saturday</day>
+			<day>Sunday</day>
+		</skipDays>
+		<skipHour>
+			<hour>1</hour>
+			<hour>2</hour>
+			<hour>5</hour>
+			<hour>6</hour>
+			<hour>7</hour>
+			<hour>8</hour>
+			<hour>18</hour>
+			<hour>19</hour>
+			<hour>20</hour>
+			<hour>23</hour>
+			<hour>24</hour>
+		</skipHour>
+		<item>
+			<title>Practica 1 HTML</title>
+			<link>http://192.168.2.106/practicas/html/practica01</link>
+			<description>Primera practica</description>
+		</item>
+		<item>
+			<title>Practica 2 HTML</title>
+			<link>http://192.168.2.106practicas/html/practica02</link>
+			<description>Segunda practica</description>
+		</item>
+		<item>
+			<title>Practica 3 HTML</title>
+			<link>http://192.168.2.106/practicas/html/practicas03</link>
+			<description>Tercera practica</description>
+		</item>
+		<item>
+			<title>Practica 1 CSS</title>
+			<link>http://192.168.2.106/practicas/css/practica01</link>
+			<description>Primera practica</description>
+		</item>
+		<item>
+			<title>Practica 2 CSS</title>
+			<link>http://192.168.2.106/practicas/css/practica02</link>
+			<description>Segunda practica</description>
+		</item>
+		<item>
+			<title>Practica 3 CSS</title>
+			<link>http://192.168.2.106/practicas/css/practica03</link>
+			<description>Tercera practica</description>
+		</item>
+		<item>
+			<title>Practica 1 XML</title>
+			<link>http://192.168.2.106/practicas/xml/practica01</link>
+			<description>Primera practica</description>
+		</item>
+		<item>
+			<title>Practica 2 XML</title>
+			<link>http://192.168.2.106/practicas/xml/practica02</link>
+			<description>Segunda practica</description>
+		</item>
+		<item>
+			<title>Practica 3 XML</title>
+			<link>http://192.168.2.106/practicas/xml/practica03</link>
+			<description>Tercera practica</description>
+		</item>
+		<item>
+			<title>Practica 1 XPATH</title>
+			<link>http://192.168.2.106/practicas/xpath/practica01</link>
+			<description>Primera practica</description>
+		</item>
+		<item>
+			<title>Practica 2 XPATH</title>
+			<link>http://192.168.2.106/practicas/xpath/practica02</link>
+			<description>Segunda practica</description>
+		</item>
+		<item>
+			<title>Practica 3 XPATH</title>
+			<link>http://192.168.2.106/practicas/xpath/practica03</link>
+			<description>Tercera practica</description>
+		</item>
+	</channel>
+</rss>

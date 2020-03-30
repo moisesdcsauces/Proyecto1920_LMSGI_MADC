@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<!DOCTYPE CATALOG [
+<!ENTITY AUTHOR "John Doe">
+<!ENTITY COMPANY "JD Power Tools, Inc.">
+<!ENTITY EMAIL "jd@jd-tools.com">
+<!ELEMENT CATALOG (PRODUCT+)>
+<!ELEMENT PRODUCT (SPECIFICATIONS+,OPTIONS?,PRICE+,NOTES?)>
+<!ATTLIST PRODUCT NAME CDATA #IMPLIED
+CATEGORY (HandTool|Table|Shop-Professional) "HandTool"
+PARTNUM CDATA #IMPLIED
+PLANT (Pittsburgh|Milwaukee|Chicago) "Chicago"
+INVENTORY (InStock|Backordered|Discontinued) "InStock">
+<!ELEMENT SPECIFICATIONS (#PCDATA)>
+<!ATTLIST SPECIFICATIONS
+WEIGHT CDATA #IMPLIED
+POWER CDATA #IMPLIED>
+<!ELEMENT OPTIONS (#PCDATA)>
+<!ATTLIST OPTIONS FINISH (Metal|Polished|Matte) "Matte"
+ADAPTER (Included|Optional|NotApplicable) "Included"
+CASE (HardShell|Soft|NotApplicable) "HardShell">
+<!ELEMENT PRICE (#PCDATA)>
+<!ATTLIST PRICE MSRP CDATA #IMPLIED
+WHOLESALE CDATA #IMPLIED
+STREET CDATA #IMPLIED
+SHIPPING CDATA #IMPLIED>
+<!ELEMENT NOTES (#PCDATA)>
+]>
+
+<CATALOG xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="13.xsd">
+	<PRODUCT NAME="Nombreejemplo" CATEGORY="HandTool" PARTNUM="parteejemplo" PLANT="Chicago" INVENTORY="InStock">
+		<SPECIFICATIONS WEIGHT="10" POWER="60">ejemplo</SPECIFICATIONS>
+		<OPTIONS FINISH="Matte" ADAPTER="Included" CASE="HardShell">opciones de ejemplo</OPTIONS>
+		<PRICE MSRP="ns" WHOLESALE="3400" STREET="calleejemplo" SHIPPING="5">100</PRICE>
+		<NOTES>
+		Autor: &AUTHOR; 
+		Company: &COMPANY; 
+		Email: &EMAIL;
+		</NOTES>
+	</PRODUCT>
+	<PRODUCT NAME="Nombreejempl" CATEGORY="HandTool" PARTNUM="partejemplo" PLANT="Chicago" INVENTORY="InStock">
+		<SPECIFICATIONS WEIGHT="20" POWER="120">ejemplo de especificar</SPECIFICATIONS>
+		<OPTIONS FINISH="Matte" ADAPTER="Included" CASE="HardShell">opciones varias con ejemplo</OPTIONS>
+		<PRICE MSRP="nss" WHOLESALE="4500" STREET="calejemplo" SHIPPING="7">400</PRICE>
+		<NOTES>
+		Autor: &AUTHOR; 
+		Company: &COMPANY; 
+		Email: &EMAIL;
+		</NOTES>
+	</PRODUCT>
+</CATALOG>

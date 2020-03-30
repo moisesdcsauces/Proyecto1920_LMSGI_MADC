@@ -1,0 +1,27 @@
+<historia xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:noNamespaceSchemaLocation="xml03.xsd">
+	<hechos_historicos>
+		<descripcion>Se funda Youtube</descripcion>
+		<fecha>
+			<dia>15</dia>
+			<mes>2</mes>
+			<anyo>2005</anyo>
+		</fecha>
+	</hechos_historicos>
+	<hechos_historicos>
+		<descripcion>Se funda Google</descripcion>
+		<fecha>
+			<dia>4</dia>
+			<mes>9</mes>
+			<anyo>1998</anyo>
+		</fecha>
+	</hechos_historicos>
+	<hechos_historicos>
+		<descripcion>Se funda Facebook</descripcion>
+		<fecha>
+			<dia>4</dia>
+			<mes>2</mes>
+			<anyo>2004</anyo>
+		</fecha>
+	</hechos_historicos>
+</historia>

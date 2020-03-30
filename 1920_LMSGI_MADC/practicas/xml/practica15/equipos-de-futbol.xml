@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<futbol xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="equipos-de-futbol.xsd">
+	<equipo>
+		<nombre>Liverpool</nombre>
+		<ciudad>Liverpool</ciudad>
+		<entrenador>Jurgen Klop</entrenador>
+		<jugadores>
+			<jugador posicion="portero" dorsal="1">
+				<nombre>Alisson</nombre>
+				<nacionalidad>Brasileño</nacionalidad>
+			</jugador>
+			<jugador posicion="Delantero" dorsal="10">
+				<nombre>Sadio Mane</nombre>
+				<nacionalidad>Senegales</nacionalidad>
+			</jugador>
+		</jugadores>
+	</equipo>
+</futbol>

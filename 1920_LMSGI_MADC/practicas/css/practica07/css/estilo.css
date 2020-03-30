@@ -1,0 +1,62 @@
+
+/* 
+    Created on : 2-dic-2019
+    Author     : Moisés Alberto Domínguez Cruz
+    Colores utilizados: https://www.w3schools.com/colors/colors_groups.asp
+*/
+
+h1{
+	color: red;
+	background-color: #FFA500;
+	padding: 10px;
+	text-transform: uppercase;
+	font-family: calibri, arial, sans-serif;
+}
+
+body{
+	background-image:url(../images/Le_petit_prince.png);
+	background-repeat:no-repeat;
+	background-position: right bottom;
+	margin-right:25%;
+	background-size: 25%;
+	background-attachment: fixed;
+	font-family: calibri, arial, sans-serif;
+}
+
+#par1>h2{
+	color: #FFA500;
+	font-family: sans-serif;
+}
+
+#par1>ul{
+	margin-left:-40px;
+}
+
+#par1>ul>li{
+	list-style: none;
+	background-color: DarkSlateBlue;
+	display: inline-block;
+	padding: 5px;
+}
+
+#par1>ul>li>a{
+	color: white;
+	text-decoration: none;
+	font-family: calibri, arial, sans-serif;
+}
+
+#par2>h2{
+	color: red;
+	font-family: calibri, arial, sans-serif;
+}
+
+#par2>a{
+	font-family: calibri, arial, sans-serif;
+	color: white;
+	background-color: DarkSlateBlue;
+	display: block;
+	text-decoration: underline;
+	margin-bottom: 5px;
+	width: 355px;
+	padding: 10px;
+}

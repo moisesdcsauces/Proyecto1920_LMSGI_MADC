@@ -1,0 +1,15 @@
+/* 
+    Created on : Notepad++
+    Author     : Moisés Alberto Domínguez Cruz
+    File        : estilo9.css
+    Description : Trabajando con selectores
+*/
+
+.padre ~ p{border:solid red 1px;}
+a[title]{ color:#009cde;}
+a[title="Titulo hijo 1"]{ 
+	background-color:red;
+	}
+a[title~="Titulo"]{font-size:2em;}
+
+

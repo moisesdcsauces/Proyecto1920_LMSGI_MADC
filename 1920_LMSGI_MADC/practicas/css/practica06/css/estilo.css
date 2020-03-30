@@ -1,0 +1,60 @@
+
+/* 
+    Created on : 1-dic-2019
+    Author     : Moisés Alberto Domínguez Cruz
+    Colores utilizados: https://www.w3schools.com/colors/colors_groups.asp
+*/
+
+body{
+	background-image:url(../images/Le_petit_prince.png);
+	background-repeat:no-repeat;
+	background-position: top right;
+	margin-right:25%;
+	background-size: 25%;
+}
+
+h1{
+	color: #FF0000;
+	font-family:sans-serif;
+	background-color: #FFA500;
+	font-variant: normal;
+}
+
+h2{
+	color: Crimson;
+	font-family:sans-serif;
+	font-variant: normal;
+}
+
+caption{
+    color: green;
+	caption-side: bottom;
+	font-style: italic;
+}
+
+table{
+	font-family:sans-serif;
+	font-variant: normal;
+}
+
+.tabla1 td{
+    border-bottom: 1px solid #DDD;
+}
+
+.tabla2 th{
+    background-color: MediumSeaGreen;
+    color: white;
+}
+
+.tabla2 tr:nth-child(odd){
+    background-color:#F5F5F5;
+}
+
+.tabla2 tr:nth-child(even){
+    background-color:#E0FFFF;
+}
+
+
+
+
+

@@ -1,0 +1,10 @@
+/* 
+    Created on : Notepad++
+    Author     : Moisés Alberto Domínguez Cruz
+    File        : estilo3.css
+    Description : Trabajando con selectores
+*/
+.padre{background-color:#009cde;}
+.hijo{border:solid red 1px;}
+
+

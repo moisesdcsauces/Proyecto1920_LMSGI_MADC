@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/css" href="estilo.css"?>
+<!DOCTYPE ejemplocodigos [
+	<!ELEMENT ejemplocodigos (ejemplo+)>
+	<!ELEMENT ejemplo (lenguaje,codigo)>
+	<!ELEMENT lenguaje (#PCDATA)>
+	<!ELEMENT codigo (#PCDATA)>
+]>
+<ejemplocodigos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="09.xsd">
+	<ejemplo>
+		<lenguaje>Java</lenguaje>
+		<codigo>
+			<![CDATA[
+				public class holaMundo{
+					public static void main(String[] args){
+						System.out.println("Hola a todos");
+					}
+				}
+			]]>
+		</codigo>
+	</ejemplo>
+	<ejemplo>
+		<lenguaje>HTML</lenguaje>
+		<codigo>
+			<![CDATA[
+				<!DOCTYPE html>
+				<html>
+					<body>
+						<h1>Titulo</h1>
+						<p>Párrafo</p>
+					</body>
+				</html>
+			]]>
+		</codigo>
+	</ejemplo>
+</ejemplocodigos>
