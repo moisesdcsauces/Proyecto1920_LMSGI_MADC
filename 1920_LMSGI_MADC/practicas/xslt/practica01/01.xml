@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alumnos>
+	<alumno>
+		<nombre>Francisco</nombre>
+		<apellido>Rodríguez</apellido>
+		<direccion>
+			<poblacion>Benavente</poblacion>
+			<cp>49600</cp>
+		</direccion>
+	</alumno>
+	<alumno>
+		<nombre>María</nombre>
+		<apellido>Pérez</apellido>
+		<direccion>
+			<poblacion>Valladolid</poblacion>
+			<cp>47010</cp>
+		</direccion>
+	</alumno>
+</alumnos>
