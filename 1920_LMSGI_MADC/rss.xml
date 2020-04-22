@@ -4,13 +4,9 @@
 	<channel>
 		<title>Moisés Alberto Domínguez Cruz</title>
 		<copyright>MoiTheCreator</copyright>
-		<url>192.168.2.106</url>
+		<url>http://madc.ieslossauces.es/index.html</url>
 		<description>RSS by MoiTheCreator</description>
-		<lastBuildDate>Mon, 30 Mar 2020 09:31:00 +0100</lastBuildDate>
-		<skipDays>
-			<day>Saturday</day>
-			<day>Sunday</day>
-		</skipDays>
+		<lastBuildDate>Wed, 21 Abr 2020 21:00:00 +0100</lastBuildDate>
 		<skipHour>
 			<hour>1</hour>
 			<hour>2</hour>
@@ -25,64 +21,34 @@
 			<hour>24</hour>
 		</skipHour>
 		<item>
-			<title>Practica 1 HTML</title>
-			<link>http://192.168.2.106/practicas/html/practica01</link>
-			<description>Primera practica</description>
+			<title>Practica 1 XSLT</title>
+			<link>http://madc.ieslossauces.es/practicas/xslt/practica01/01.xml</link>
+			<description>Primera practica de XSLT donde trabajamos con un xml que muestra las viviendas de un edificio.</description>
 		</item>
 		<item>
-			<title>Practica 2 HTML</title>
-			<link>http://192.168.2.106practicas/html/practica02</link>
-			<description>Segunda practica</description>
-		</item>
-		<item>
-			<title>Practica 3 HTML</title>
-			<link>http://192.168.2.106/practicas/html/practicas03</link>
-			<description>Tercera practica</description>
-		</item>
-		<item>
-			<title>Practica 1 CSS</title>
-			<link>http://192.168.2.106/practicas/css/practica01</link>
-			<description>Primera practica</description>
-		</item>
-		<item>
-			<title>Practica 2 CSS</title>
-			<link>http://192.168.2.106/practicas/css/practica02</link>
-			<description>Segunda practica</description>
-		</item>
-		<item>
-			<title>Practica 3 CSS</title>
-			<link>http://192.168.2.106/practicas/css/practica03</link>
-			<description>Tercera practica</description>
-		</item>
-		<item>
-			<title>Practica 1 XML</title>
-			<link>http://192.168.2.106/practicas/xml/practica01</link>
-			<description>Primera practica</description>
-		</item>
-		<item>
-			<title>Practica 2 XML</title>
-			<link>http://192.168.2.106/practicas/xml/practica02</link>
-			<description>Segunda practica</description>
-		</item>
-		<item>
-			<title>Practica 3 XML</title>
-			<link>http://192.168.2.106/practicas/xml/practica03</link>
-			<description>Tercera practica</description>
-		</item>
-		<item>
-			<title>Practica 1 XPATH</title>
-			<link>http://192.168.2.106/practicas/xpath/practica01</link>
-			<description>Primera practica</description>
-		</item>
-		<item>
-			<title>Practica 2 XPATH</title>
-			<link>http://192.168.2.106/practicas/xpath/practica02</link>
-			<description>Segunda practica</description>
+			<title>Practica 2 XSLT</title>
+			<link>http://madc.ieslossauces.es/practicas/xslt/practica02/02.xml</link>
+			<description>Segunda practica de XSLT que muestra las facturas y donde tendremos que crear un XSLT de un html y un css.</description>
 		</item>
 		<item>
 			<title>Practica 3 XPATH</title>
-			<link>http://192.168.2.106/practicas/xpath/practica03</link>
-			<description>Tercera practica</description>
+			<link>http://madc.ieslossauces.es/practicas/xpath/practica03/xpath-moi.pdflink</link>
+			<description>Tercera practica de xpath</description>
+		</item>
+		<item>
+			<title>Practica 4 XPATH</title>
+			<link>http://madc.ieslossauces.es/practicas/xpath/practica04/xpath-moi.pdf</link>
+			<description>Cuarta practica de xpath</description>
+		</item>
+		<item>
+			<title>Practica 5 XPATH</title>
+			<link>http://madc.ieslossauces.es/practicas/xpath/practica05/xpath-moi.pdf</link>
+			<description>Quinta practica de xpath</description>
+		</item>
+		<item>
+			<title>Practica 6 XPATH</title>
+			<link>http://madc.ieslossauces.es/practicas/xpath/practica06/xpath-moi.pdf</link>
+			<description>Sexta practica de xpath</description>
 		</item>
 	</channel>
 </rss>
