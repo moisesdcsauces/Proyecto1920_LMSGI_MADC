@@ -1,19 +1,20 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<alumnos>
-	<alumno>
-		<nombre>Francisco</nombre>
-		<apellido>Rodríguez</apellido>
-		<direccion>
-			<poblacion>Benavente</poblacion>
-			<cp>49600</cp>
-		</direccion>
-	</alumno>
-	<alumno>
-		<nombre>María</nombre>
-		<apellido>Pérez</apellido>
-		<direccion>
-			<poblacion>Valladolid</poblacion>
-			<cp>47010</cp>
-		</direccion>
-	</alumno>
-</alumnos>
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="01.xsl"?>
+<edificio>
+	<vivienda>
+		<piso>1</piso>
+		<puerta>A</puerta>
+		<vecinos>
+			<nombre>David</nombre>
+			<nombre>Sara</nombre>
+		</vecinos>
+	</vivienda>
+	<vivienda>
+		<piso>1</piso>
+		<puerta>B</puerta>
+		<vecinos>
+			<nombre>Jaime</nombre>
+			<nombre>Luis</nombre>
+		</vecinos>
+	</vivienda>
+</edificio>
