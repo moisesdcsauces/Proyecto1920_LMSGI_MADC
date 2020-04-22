@@ -1,0 +1,39 @@
+*{
+    width: auto;
+}
+body{
+    margin: 0px;
+}
+table{
+    width: 75%;
+    border-collapse: collapse;
+    margin: auto;
+    table-layout: fixed
+}
+tr{
+  border-bottom: 2px solid grey;
+}
+caption{
+    caption-side: bottom;
+    color: green;
+    font-variant: small-caps;
+}
+h1{
+    color: green;
+    padding-left: 3.5%;
+}
+h2{
+    background: green;
+    color: white;
+    padding-left: 3.5%;
+}
+h3{
+    border: solid 4px green;
+    padding-left: 3.5%;
+}
+footer{
+    background-color: green;
+    color: white;
+    text-align: center;
+    font-size: 1.0em;
+}
