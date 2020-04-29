@@ -6,20 +6,36 @@
 		<copyright>MoiTheCreator</copyright>
 		<url>http://madc.ieslossauces.es/index.html</url>
 		<description>RSS by MoiTheCreator</description>
-		<lastBuildDate>Wed, 21 Abr 2020 21:00:00 +0100</lastBuildDate>
+		<lastBuildDate>Wed, 29 Abr 2020 12:00:00 +0100</lastBuildDate>
 		<skipHour>
+			<hour>0</hour>
 			<hour>1</hour>
 			<hour>2</hour>
+			<hour>3</hour>
+			<hour>4</hour>
 			<hour>5</hour>
 			<hour>6</hour>
 			<hour>7</hour>
 			<hour>8</hour>
-			<hour>18</hour>
-			<hour>19</hour>
-			<hour>20</hour>
-			<hour>23</hour>
-			<hour>24</hour>
+			<hour>9</hour>
+			<hour>14</hour>
+                        <hour>15</hour>
+                        <hour>16</hour>
+                        <hour>17</hour>
+                        <hour>18</hour>
+                        <hour>19</hour>
+                        <hour>20</hour>
+                        <hour>21</hour>
+                        <hour>22</hour>
+                        <hour>23</hour>
 		</skipHour>
+                <skipDays>
+                        <day>Monday</day>
+                        <day>Wednesday</day>
+                        <day>Friday</day>
+                        <day>Saturday</day>
+                        <day>Sunday</day>
+                </skipDays>
 		<item>
 			<title>Practica 1 XSLT</title>
 			<link>http://madc.ieslossauces.es/practicas/xslt/practica01/01.xml</link>
@@ -31,9 +47,9 @@
 			<description>Segunda practica de XSLT que muestra las facturas y donde tendremos que crear un XSLT de un html y un css.</description>
 		</item>
 		<item>
-			<title>Practica 3 XPATH</title>
-			<link>http://madc.ieslossauces.es/practicas/xpath/practica03/xpath-moi.pdflink</link>
-			<description>Tercera practica de xpath</description>
+			<title>Practica 3 XSLT</title>
+			<link>http://madc.ieslossauces.es/practicas/xslt/practica03/03.xml</link>
+			<description>Tercera practica de XSLT que muestran un numero de peliculas con su nombre, descripcion y valoracion.</description>
 		</item>
 		<item>
 			<title>Practica 4 XPATH</title>

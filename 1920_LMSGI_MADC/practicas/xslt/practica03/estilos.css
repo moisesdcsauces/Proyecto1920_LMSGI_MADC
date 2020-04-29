@@ -1,0 +1,29 @@
+html{
+    background-image: url('images/cine.jpg');
+}
+.caja{
+    background-color: lightgray;
+    color: black;
+    width: 25%;
+    float: left;
+    margin: 2% 2.5%;
+    border: solid 2px black;
+    text-align: center;
+    height: 150px;
+    
+}
+h1{
+    background-color: grey;
+    color: white;
+    text-align: center;
+}
+footer{
+    width: 100%;
+    background-color: grey;
+    position: fixed;
+    bottom: 5px;
+}
+footer p{
+    color: white;
+    text-align: center;
+}
