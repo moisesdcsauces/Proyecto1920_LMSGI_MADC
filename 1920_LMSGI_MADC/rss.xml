@@ -6,7 +6,7 @@
 		<copyright>MoiTheCreator</copyright>
 		<url>http://madc.ieslossauces.es/index.html</url>
 		<description>RSS by MoiTheCreator</description>
-		<lastBuildDate>Wed, 29 Abr 2020 12:00:00 +0100</lastBuildDate>
+		<lastBuildDate>Wed, 06 May 2020 15:10:00 +0100</lastBuildDate>
 		<skipHour>
 			<hour>0</hour>
 			<hour>1</hour>
@@ -52,9 +52,9 @@
 			<description>Tercera practica de XSLT que muestran un numero de peliculas con su nombre, descripcion y valoracion.</description>
 		</item>
 		<item>
-			<title>Practica 4 XPATH</title>
-			<link>http://madc.ieslossauces.es/practicas/xpath/practica04/xpath-moi.pdf</link>
-			<description>Cuarta practica de xpath</description>
+			<title>Practica 4 XSLT</title>
+			<link>http://madc.ieslossauces.es/practicas/xslt/practica04/04.xml</link>
+			<description>Cuarta practica de XSLT que muestran las actividades de un gimnasio.</description>
 		</item>
 		<item>
 			<title>Practica 5 XPATH</title>
