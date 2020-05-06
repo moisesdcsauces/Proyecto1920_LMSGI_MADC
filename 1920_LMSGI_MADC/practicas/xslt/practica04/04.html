@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>XSLT 04 Moisés Alberto Domínguez Cruz</title>
+        <link href="estilos.css" rel="stylesheet" type="text/css">
+        <meta name="Author" content="Moisés Alberto Domínguez Cruz">
+        <meta name="Description" content="xslt 3">
+        <meta name="robots" content="index, follow">
+    </head>
+	<body>
+        <article>
+            <header>
+                <h2>1. TODOS LOS ELEMENTOS DE LAS ACTIVIDADES INFANTILES.</h2>
+            </header>
+            <header>
+                <h3>EXPRESI&Oacute;N XPATH:  //actividad[@nivel="infantil"]</h3>
+            </header>
+            <ul>
+                <li>C&oacute;digo: A01</li>
+                <li>T&iacute;tulo: Al agua patos</li>
+                <li>Fecha de inicio: 2017-01-15</li>
+                <li>Sesiones:  	
+			45
+			3
+		</li>
+            </ul>
+            <ul>
+                <li>C&oacute;digo: A04</li>
+                <li>T&iacute;tulo: Socorrismo</li>
+                <li>Fecha de inicio: 2017-01-15</li>
+                <li>Sesiones:  			
+			45
+			2
+		</li>
+            </ul>
+            <ul>
+                <li>C&oacute;digo: A05</li>
+                <li>T&iacute;tulo: Perfeccionamiento en el agua</li>
+                <li>Fecha de inicio: 2017-01-15</li>
+                <li>Sesiones:  			
+			45
+			2
+		</li>
+            </ul>
+        </article>
+        <article>
+            <header>
+                <h2>2. EL NOMBRE DE LAS ACTIVIDADES PARA ADULTOS.</h2>
+            </header>
+            <header>
+                <h3>EXPRESI&Oacute;N XPATH: //actividad[@nivel="adultos"]/titulo</h3>
+            </header>
+            <ul>
+                <li>Al agua patos</li>
+            </ul>
+            <ul>
+                <li>Socorrismo</li>
+            </ul>
+            <ul>
+                <li>Perfeccionamiento en el agua</li>
+            </ul>
+        </article>
+        <article>
+            <header>
+                <h2>3. EL NOMBRE DE LAS ACTIVIDADES DE ADULTOS.</h2>
+            </header>
+            <header>
+                <h3>EXPRESI&Oacute;N XPATH: //sesiones[sesiones_semana='2']/../titulo</h3>
+            </header>
+            <ul>
+                <li>Spinning en el agua</li>
+            </ul>
+            <ul>
+                <li>Socorrismo</li>
+            </ul>
+            <ul>
+                <li>Perfeccionamiento en el agua</li>
+            </ul>
+            <ul>
+                <li>Aprender a nadar</li>
+            </ul>
+        </article>
+        <article>
+            <header>
+                <h2>4. CUENTA EL N&Uacute;MERO DE ACTIVIDADES.</h2>
+            </header>
+            <header>
+                <h3>EXPRESI&Oacute;N XPATH: count(//actividad)</h3>
+            </header>
+            <p>N&uacute;mero de actividades: 6</p>
+        </article>
+        <article>
+            <header>
+                <h2>5. CUENTA EL N&Uacute;MERO DE ACTIVIDADES INFANTILES.</h2>
+            </header>
+            <header>
+                <h3>EXPRESI&Oacute;N XPATH: count(//actividad[@nivel='infantil'])</h3>
+            </header>
+            <p>N&uacute;mero de actividades infantiles: 3</p>
+        </article>
+        <article>
+            <header>
+                <h2>6. CONVERTIR EL N&Uacute;MERO DE ACTIVIDADES A STRING.</h2>
+            </header>
+            <header>
+                <h3>EXPRESI&Oacute;N XPATH: string(count(//actividad))</h3>
+            </header>
+            <p>N&uacute;mero de actividades infantiles: 6</p>
+        </article>
+        <article>
+            <header>
+                <h2>7. SUMA DE LAS SESIONES SEMANALES DE LAS ACTIVIDADES PARA ADULTOS.</h2>
+            </header>
+            <header>
+                <h3>EXPRESI&Oacute;N XPATH: sum(//actividad[@nivel='adultos']/sesiones/sesiones_semana)</h3>
+            </header>
+            <p>Suma de las sesiones semanales de las actividades para adultos: 7</p>
+        </article>
+        <article>
+            <header>
+                <h2>8. NODOS DE LA ACTIVIDAD DE C&Oacute;DIGO A06.</h2>
+            </header>
+            <header>
+                <h3>EXPRESI&Oacute;N XPATH: /actividades/actividad[./codigo='A06']/descendant::*"</h3>
+            </header>
+            <p>codigo : A06</p>
+            <p>titulo : Aprender a nadar</p>
+            <p>fecha_inicio : 2017-02-15</p>
+            <p>minutos_sesion : 30</p>
+            <p>sesiones_semana : 2</p>
+        </article>
+    </body>
+</html>
