@@ -3,6 +3,12 @@
     Created on : 1-dic-2019
     Author     : Moisés Alberto Domínguez Cruz
     Colores utilizados: https://www.w3schools.com/colors/colors_groups.asp
+
+
+    Fecha de modificacion: 09-jun-2020
+    requerimentos: examen final.
+    
+    Autor: Moisés Alberto Dominguez Cruz
 */
 
 body{
@@ -11,6 +17,7 @@ body{
 	background-position: top right;
 	margin-right:25%;
 	background-size: 25%;
+	padding-right: 10%;
 }
 
 h1{
@@ -41,6 +48,11 @@ table{
     border-bottom: 1px solid #DDD;
 }
 
+.tabla1{
+	text-align: center;
+	margin: 0 auto;
+}
+
 .tabla2 th{
     background-color: MediumSeaGreen;
     color: white;
@@ -52,6 +64,13 @@ table{
 
 .tabla2 tr:nth-child(even){
     background-color:#E0FFFF;
+}
+
+tr th{
+	padding: 20px;
+}
+tr td{
+	padding: 15px;
 }
 
 

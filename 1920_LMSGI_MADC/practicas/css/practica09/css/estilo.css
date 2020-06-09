@@ -1,8 +1,10 @@
-﻿
+
 /* 
     Created on : 05-dic-2019, 19:10:50
-    Author     : Amor Rodríguez <amor at marodriguezn@educa.jcyl.es>
+    Author     : Moisés Alberto Domínguz Cruz
    
+    Fecha de modificacion: 09-jun-2020
+    requerimentos: examen final.
 */
 
 * { box-sizing: border-box; margin:0px; padding:0px;}
@@ -33,7 +35,6 @@ article h2{
 	color:brown;
 	font-variant:small-caps;
 	letter-spacing:5px;
-	
 }
 article p{
 	padding: 5px 0;
@@ -63,5 +64,15 @@ article p{
 }
 .content{
 	width:75%;
+}
+
+footer{
+	position: fixed;
+	margin:0;
+	bottom:0;
+	width:100%;
+	background-color: darkseagreen;
+	padding: 20px;
+	color: white;
 }
 
